@@ -433,7 +433,7 @@ function make_the_table_1()  //make table 1
                     <td>
                         <?php
                         if (!isset ($table_data[$receiver_a][$giver_name])) {
-                            echo '**********';
+                            echo '*****';
                         } else {
                             echo $table_data[$receiver_a][$giver_name];
 
